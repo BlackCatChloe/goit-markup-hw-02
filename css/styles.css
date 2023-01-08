@@ -1,0 +1,204 @@
+:root {
+  --accent-color: #2196f3;
+  --lighter-text: #757575;
+  --darker-text: #212121;
+  --super-light-text: #ffffff;
+  --super-dark-color: #000000;
+  --sub-nav-back-color: #f5f4fa;
+}
+/* reset */
+a:hover,
+a,
+a:focus {
+  text-decoration: none;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--lighter-text);
+}
+
+/* header */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--super-dark-color);
+}
+.logo .accent {
+  color: var(--accent-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--darker-text);
+}
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--lighter-text);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* я зробила фон, щоб було видно h1  */
+.hero {
+  background-color: #2f303a;
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--super-light-text);
+}
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--super-light-text);
+  width: 216px;
+  height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px var(--accent-color);
+  border-radius: 4px;
+}
+
+/* sections */
+.properties-list {
+}
+.properties-list .properties-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--darker-text);
+}
+.section .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--darker-text);
+}
+.employer-list,
+.employer-list p {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.employer-list .employer-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--darker-text);
+}
+
+/* footer area */
+.footer {
+  background: #2f303a;
+}
+.footer .logo {
+  color: var(--super-light-text);
+}
+.address-link {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+.address-link.punson,
+.address-link.punson:hover,
+.address-link.punson:focus {
+  color: var(--super-light-text);
+  text-decoration: none;
+}
+
+/* NEW PAGE */
+/* PORTFOLIO  */
+
+.portfolio-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--darker-text);
+  background: var(--sub-nav-back-color);
+  border-radius: 4px;
+  border: 1px var(--sub-nav-back-color);
+  /* відступ приберу, зараз просто щоб показати елементи */
+  margin-bottom: 4px;
+}
+.portfolio-list-item a {
+  color: var(--darker-text);
+  display: block;
+}
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+  background: var(--accent-color);
+  border: 1px var(--accent-color);
+}
+.portfolio-list-item a:hover,
+.portfolio-list-item a:focus {
+  color: var(--super-light-text);
+}
+.project-list-item {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+.project-list-item h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--darker-text);
+}
