@@ -197,7 +197,7 @@ body {
 
 .project-list-item {
   font-size: 16px;
-  line-height: 1.875x;
+  line-height: 1.875;
 }
 .project-list-item h3 {
   font-weight: 700;
