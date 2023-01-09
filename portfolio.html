@@ -7,16 +7,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&family=Updock&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Updock&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Updock&display=swap"
       rel="stylesheet"
     />
 
@@ -30,7 +22,9 @@
       <nav class="navigation">
         <ul class="nav-list">
           <li><a href="index.html" class="nav-link">Студія</a></li>
-          <li><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
+          <li>
+            <a href="portfolio.html" class="nav-link activated">Портфоліо</a>
+          </li>
           <li><a href="#" class="nav-link">Контакти</a></li>
         </ul>
       </nav>
@@ -50,104 +44,136 @@
     <main>
       <section class="section">
         <ul class="portfolio-list">
-          <li class="portfolio-list-item"><a href="">Усі</a></li>
-          <li class="portfolio-list-item"><a href="">Веб-сайти</a></li>
-          <li class="portfolio-list-item"><a href="">Додатки</a></li>
-          <li class="portfolio-list-item"><a href="">Дизайн</a></li>
-          <li class="portfolio-list-item"><a href="">Маркетинг</a></li>
+          <li class="portfolio-list-item">
+            <button type="button" class="portfolio-list-button activated">
+              Усі
+            </button>
+          </li>
+          <li class="portfolio-list-item">
+            <button type="button" class="portfolio-list-button">
+              Веб-сайти
+            </button>
+          </li>
+          <li class="portfolio-list-item">
+            <button type="button" class="portfolio-list-button">Додатки</button>
+          </li>
+          <li class="portfolio-list-item">
+            <button type="button" class="portfolio-list-button">Дизайн</button>
+          </li>
+          <li class="portfolio-list-item">
+            <button type="button" class="portfolio-list-button">
+              Маркетинг
+            </button>
+          </li>
         </ul>
-      </section>
-      <section class="section">
         <ul class="project-list">
           <li class="project-list-item">
-            <img
-              src="./images/05.jpg"
-              alt="опис зображення 1"
-              width="370"
-              height="294"
-            />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <a href="">
+              <img
+                src="./images/05.jpg"
+                alt="опис зображення 1"
+                width="370"
+                height="294"
+              />
+              <h3>Технокряк</h3>
+              <p>Веб-сайт</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/06.jpg"
-              alt="опис зображення 2"
-              width="370"
-              height="294"
-            />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <a href="">
+              <img
+                src="./images/06.jpg"
+                alt="опис зображення 2"
+                width="370"
+                height="294"
+              />
+              <h3>Постер New Orlean vs Golden Star</h3>
+              <p>Дизайн</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/07.jpg"
-              alt="опис зображення 3"
-              width="370"
-              height="294"
-            />
-            <h3>Ресторан Seafood</h3>
-            <p>Додаток</p>
+            <a href="">
+              <img
+                src="./images/07.jpg"
+                alt="опис зображення 3"
+                width="370"
+                height="294"
+              />
+              <h3>Ресторан Seafood</h3>
+              <p>Додаток</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/08.jpg"
-              alt="опис зображення 4"
-              width="370"
-              height="294"
-            />
-            <h3>Проєкт Prime</h3>
-            <p>Маркетинг</p>
+            <a href="">
+              <img
+                src="./images/08.jpg"
+                alt="опис зображення 4"
+                width="370"
+                height="294"
+              />
+              <h3>Проєкт Prime</h3>
+              <p>Маркетинг</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/09.jpg"
-              alt="опис зображення 5"
-              width="370"
-              height="294"
-            />
-            <h3>Проєкт Boxes</h3>
-            <p>Додаток</p>
+            <a href="">
+              <img
+                src="./images/09.jpg"
+                alt="опис зображення 5"
+                width="370"
+                height="294"
+              />
+              <h3>Проєкт Boxes</h3>
+              <p>Додаток</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/10.jpg"
-              alt="опис зображення 6"
-              width="370"
-              height="294"
-            />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <a href="">
+              <img
+                src="./images/10.jpg"
+                alt="опис зображення 6"
+                width="370"
+                height="294"
+              />
+              <h3>Inspiration has no Borders</h3>
+              <p>Веб-сайт</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/11.jpg"
-              alt="опис зображення 7"
-              width="370"
-              height="294"
-            />
-            <h3>Видання Limited Edition</h3>
-            <p>Дизайн</p>
+            <a href="">
+              <img
+                src="./images/11.jpg"
+                alt="опис зображення 7"
+                width="370"
+                height="294"
+              />
+              <h3>Видання Limited Edition</h3>
+              <p>Дизайн</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/12.jpg"
-              alt="опис зображення 8"
-              width="370"
-              height="294"
-            />
-            <h3>Проєкт LAB</h3>
-            <p>Маркетинг</p>
+            <a href="">
+              <img
+                src="./images/12.jpg"
+                alt="опис зображення 8"
+                width="370"
+                height="294"
+              />
+              <h3>Проєкт LAB</h3>
+              <p>Маркетинг</p>
+            </a>
           </li>
           <li class="project-list-item">
-            <img
-              src="./images/13.jpg"
-              alt="опис зображення 9"
-              width="370"
-              height="294"
-            />
-            <h3>Growing Business</h3>
-            <p>Додаток</p>
+            <a href="">
+              <img
+                src="./images/13.jpg"
+                alt="опис зображення 9"
+                width="370"
+                height="294"
+              />
+              <h3>Growing Business</h3>
+              <p>Додаток</p>
+            </a>
           </li>
         </ul>
       </section>

@@ -30,23 +30,16 @@ ol {
 }
 
 body {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
   color: var(--lighter-text);
 }
 
 /* header */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
   color: var(--super-dark-color);
 }
 .logo .accent {
@@ -55,15 +48,13 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.1;
   color: var(--darker-text);
 }
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.1;
   color: var(--lighter-text);
 }
 .nav-link:hover,
@@ -72,15 +63,25 @@ body {
 .contacts-link:focus {
   color: var(--accent-color);
 }
+.nav-link.activated {
+  color: var(--accent-color);
+}
 
 /* я зробила фон, щоб було видно h1  */
+.main {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 .hero {
   background-color: #2f303a;
 }
 .hero h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -89,7 +90,7 @@ body {
 .hero .button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--super-light-text);
@@ -107,7 +108,7 @@ body {
 .properties-list .properties-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--darker-text);
@@ -115,7 +116,7 @@ body {
 .section .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -124,13 +125,12 @@ body {
 .employer-list,
 .employer-list p {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
 }
 .employer-list .employer-list-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--darker-text);
@@ -145,7 +145,7 @@ body {
 }
 .address-link {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
@@ -160,14 +160,17 @@ body {
   color: var(--super-light-text);
   text-decoration: none;
 }
+.employer-section {
+  background-color: var(--sub-nav-back-color);
+}
 
 /* NEW PAGE */
 /* PORTFOLIO  */
 
-.portfolio-list-item {
+.portfolio-list-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.87;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--darker-text);
@@ -176,29 +179,32 @@ body {
   border: 1px var(--sub-nav-back-color);
   /* відступ приберу, зараз просто щоб показати елементи */
   margin-bottom: 4px;
+  cursor: pointer;
 }
+
 .portfolio-list-item a {
   color: var(--darker-text);
   display: block;
 }
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+
+.portfolio-list-button:hover,
+.portfolio-list-button:focus,
+.portfolio-list .activated {
   background: var(--accent-color);
   border: 1px var(--accent-color);
-}
-.portfolio-list-item a:hover,
-.portfolio-list-item a:focus {
   color: var(--super-light-text);
 }
+
 .project-list-item {
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
+  line-height: 1.875x;
 }
 .project-list-item h3 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
+  line-height: 2;
   color: var(--darker-text);
+}
+.project-list-item a {
+  color: var(--lighter-text);
 }
